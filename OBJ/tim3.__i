@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FW -I..\HARDWARE\inc
+-I "E:\information\模糊算法\源码\模糊PID资料包\STM32F103PID - 温控测试 程序增量式\USER\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\tim3.o --omf_browse ..\obj\tim3.crf --depend ..\obj\tim3.d "..\HARDWARE\src\tim3.c"
